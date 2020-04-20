@@ -10,7 +10,11 @@ export class NotesForm extends Component {
   };
   removeNote = (noteIndex) => {
     const remainder = this.state.items.filter((note) => {
-      if (this.state.items.indexOf(note) !== noteIndex){ return note} else {return};
+      if (this.state.items.indexOf(note) !== noteIndex) {
+        return note;
+      } else {
+        return;
+      }
     });
     this.setState({ items: remainder });
     return;
