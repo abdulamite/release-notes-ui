@@ -5,6 +5,10 @@ export default function Nav() {
   return (
     <nav>
       <p>QNotes</p>
+      <ul>
+        <li>Home</li>
+        <li>Settings</li>
+      </ul>
     </nav>
   );
 }
