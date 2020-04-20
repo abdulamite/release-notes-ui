@@ -1,0 +1,27 @@
+li{
+    border-radius:3px;
+    padding: 1.5rem;
+    background: #ececf0;
+    margin-bottom:1rem;
+    color:#00a781;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+
+li>span{
+    cursor: pointer;
+}
+
+li>span:hover {
+    text-decoration: underline;
+}
+
+li>svg{
+    cursor: pointer;
+    transition: .15s ease-in-out all;
+}
+
+li>svg:hover {
+    transform: rotate(-90deg);
+}

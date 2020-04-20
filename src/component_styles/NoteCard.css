@@ -1,0 +1,63 @@
+.note-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 1rem;
+    padding: 1em;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #8080805c;
+}
+
+.note-card-options {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.note-card-options>span {
+    margin-right: 1rem;
+}
+
+.note-card-options>span:hover {
+    color:#00a781;
+}
+
+.note-card-options>span:nth-child(2):hover {
+    color:#a70000;
+}
+
+.note-item>h4 {
+    margin-top: 2rem;
+    color:#00a781;
+    font-weight: 600;
+}
+
+.items{
+    margin-bottom: 1.5rem;
+    height: 100%;
+    margin-right: 5rem;
+    margin-top: -15px;
+}
+
+span.notes-are-released:not(:empty) {
+    background-color: #00a781;
+    padding: .25rem .50rem;
+    color: #FAFAFA;
+    align-self: flex-start;
+    border-radius: 3px;
+}
+.version {
+    font-weight: bold;
+    background: #00a781;
+    align-self: flex-start;
+    padding: .50rem;
+    color: #FAFAFA;
+    margin-top: -15px;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,20 @@
+nav{
+    padding: 1rem;
+    background-color: #333333;
+    color: #fafafa;
+    font-weight: bold;
+    box-shadow: 6px 3px 9px #808080b8;
+}
+nav>p {
+    font-size: 1.25rem;
+}
+
+nav>p:first-letter{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding:.20rem;
+    border-radius: 2.25px;
+    margin-right:.20rem;
+    font-size: 125%;
+    padding-top:0rem;
+    padding-bottom:0rem;
+}

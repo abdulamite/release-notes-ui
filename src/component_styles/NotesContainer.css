@@ -1,0 +1,11 @@
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    background-color:#0339610d;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: flex-start;
+}

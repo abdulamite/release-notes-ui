@@ -1,0 +1,57 @@
+.container{
+    height: 100%;
+}
+.notes-manager {
+    display: grid;
+    grid-template-columns: .5fr 2fr 3fr;
+    height: 100%;
+    overflow: hidden;
+}
+
+.delete-notes-modal-selection{
+    display: flex;
+    justify-content: center;
+}
+
+.delete-notes-modal-selection>button{
+    cursor: pointer;
+    padding: .5rem;
+    margin:.25rem;
+    border:none;
+    border-radius: 3px;
+    background-color: #0339610d;
+}
+
+button{
+    font-size: .95rem;
+    cursor: pointer;
+    padding: .5rem;
+    margin:.25rem;
+    border:none;
+    border-radius: 3px;
+    background-color: #0339610d;
+}
+
+.delete-notes-modal-selection>button:first-child{
+    background-color: #a70000;
+    color:#FAFAFA
+}
+
+.code-block {
+    background-color: #0339610d;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
