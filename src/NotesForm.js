@@ -13,7 +13,7 @@ export class NotesForm extends Component {
       if (this.state.items.indexOf(note) !== noteIndex) {
         return note;
       } else {
-        return;
+        return null;
       }
     });
     this.setState({ items: remainder });
